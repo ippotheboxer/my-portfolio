@@ -19,12 +19,21 @@ main {
 
 .navbar {
   height: 50px;
-  color: #F7B7F2;
+  color: #3B2C3A;
   background-color: white;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-around;
+}
+
+.pageLinkItem:hover {
+  color: #F7B7F2;
+}
+
+.pageLinkItem.active {
+  font-weight: bold;
+  color: #F7B7F2;
 }
 
 
@@ -41,10 +50,12 @@ main {
 }
 
 .pageLinkItem {
-  margin-right: 20px;
+  margin-right: 50px;
   font-weight: 500;
   cursor: pointer;
   color: inherit;
+  transition: color 0.2s ease;
+  width: 100px;
 }
 
 .logo {
