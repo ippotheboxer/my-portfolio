@@ -3,7 +3,16 @@ import { NavLink } from "react-router-dom";
 export default function Navbar() {
     return ( 
     <div className="navbar">
-    <span className="name"> <NavLink className="link" to="/">Sophie Sokol</NavLink> </span>
+    <span className="name"> 
+    <NavLink
+          className={({ isActive }) =>
+            `link ${isActive ? "active" : ""}`
+          }
+          to="/home"
+        >
+          {({ isActive }) => (isActive ? "🌸 Sophie Sokol" : "Sophie Sokol")}
+        </NavLink>
+        </span>
     <div className="pageLinks">
         <NavLink
           className={({ isActive }) =>
@@ -22,7 +31,7 @@ export default function Navbar() {
         >
           {({ isActive }) => (isActive ? "🌸 About" : "About")}
         </NavLink>
-        
+
         <NavLink
           className={({ isActive }) =>
             `link pageLinkItem ${isActive ? "active" : ""}`

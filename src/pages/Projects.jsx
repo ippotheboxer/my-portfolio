@@ -1,5 +1,7 @@
 export default function Projects() {
     return <main>
-        <h1>My Projects</h1>
+        <div className="container">
+            <h2>Projects</h2>
+        </div>
     </main>
 }

@@ -1,5 +1,13 @@
 export default function About() {
     return <main>
-    <h1>About me</h1>
+        <div className="container">
+            <div className="aboutContainer">
+                <h2>Nice to meet you<br /> I'm Sophie</h2>
+            </div>
+            <div className="aboutInfo">
+                <h2>About me</h2>
+                <h3></h3>
+            </div>
+        </div>
     </main>
 }
