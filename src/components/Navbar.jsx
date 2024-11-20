@@ -6,7 +6,7 @@ export default function Navbar() {
     <span className="name"> 
     <NavLink
           className={({ isActive }) =>
-            `link ${isActive ? "active" : ""}`
+            `link name ${isActive ? "active" : ""}`
           }
           to="/home"
         >
