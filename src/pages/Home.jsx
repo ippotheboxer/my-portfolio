@@ -1,5 +1,6 @@
 // Components
 import Divider from "../components/Divider";
+import ContactForm from "../components/ContactForm";
 
 // Technology Images
 import postgresql from "../img/postgresql.svg";
@@ -40,6 +41,10 @@ export default function Home() {
             </div>
         </div>
         <Divider />
+        <div className="contactContainer">
+        <h2 className="homeTitle">Contact me</h2>
+            <ContactForm />
+        </div>
     </div>
     </main>
 }

@@ -9,6 +9,7 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  background-image: linear-gradient(to bottom, #ffffff, #fefdfe, #fcfcfc, #fbfafb, #faf8f9, #faf6f8, #f9f4f6, #f9f2f4, #f9eff2, #f9edf1, #f8eaef, #f8e8ee);
 }
 
 .navbar a {
@@ -67,7 +68,7 @@ main {
 .topContainer {
   display: grid;
   grid-template-columns: 650px 600px;
-  padding: 20px 20px;
+  padding: 100px 20px;
 }
 
 .container {
@@ -90,11 +91,16 @@ main {
 
 .homeTitle {
   font-size: 50px;
+  color: #3B2C3A;
+  padding-bottom: 30px;
 }
 
 .divider {
   display: flex;
-  color: #3B2C3A;
+  background-image: linear-gradient(to right, #f7b7f2, #efb7f4, #e7b7f5, #dfb7f6, #d7b7f7);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   justify-self: center;
   font-size: 20px;
   align-items: center;
@@ -114,10 +120,7 @@ main {
 }
 
 .pinkGradientText {
-  background-color: #F7B7F2;
-    -webkit-background-clip: text;
-            background-clip: text;
-    -webkit-text-fill-color: transparent;
+  color: #F7B7F2;
 }
 
 .technologyIcon {
@@ -140,6 +143,44 @@ main {
     align-items: center;
 }
 
-.technologyTitle {
-  padding-bottom: 30px;
+.contactContainer {
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 20px;
+  background-color: #fff;
+  width: 1000px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+form > * {
+  margin-bottom: 20px;
+}
+
+form input, textarea {
+  width: 300px;
+  height: 30px;
+  outline-color: #F7B7F2;
+  border-color: #F7B7F2;
+}
+
+textarea { 
+  height: 100px;
+}
+
+.submitButton {
+  border: solid 2px #F2BED1;
+  background-color: #F8E8EE;
+  padding: 10px 10px;
+  border-radius: 5px;
 }
