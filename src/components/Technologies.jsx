@@ -10,7 +10,7 @@ import express from "../img/express.svg";
 
 export default function Technologies() {
     return (
-        <div className="technologies">
+        <div className="technologies generalContainer">
             <h2 className="homeTitle technologyTitle">🌸 Technologies</h2>
             <div className="iconContainer">
                 <img src={html} alt="html" className="technologyIcon" />

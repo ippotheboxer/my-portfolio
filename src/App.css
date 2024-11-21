@@ -11,10 +11,19 @@ main {
   flex-direction: column;
   background-image: linear-gradient(to bottom, #ffffff, #fefdfe, #fcfcfc, #fbfafb, #faf8f9, #faf6f8, #f9f4f6, #f9f2f4, #f9eff2, #f9edf1, #f8eaef, #f8e8ee);
 }
+.generalContainer {
+  padding: 100px 100px;
+  background-color: rgb(247, 236, 242, 0.4);
+}
 
 .navbar a {
   text-decoration: none;
   font-weight: 450;
+  background-color: #F7EDF7;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-right: 50px;
+  text-align: center;
 }
 
 .navbar {
@@ -51,12 +60,10 @@ main {
 }
 
 .pageLinkItem {
-  margin-right: 50px;
   font-weight: 500;
   cursor: pointer;
   color: #3B2C3A;
   transition: color 0.2s ease;
-  width: 100px;
 }
 
 .logo {
@@ -76,6 +83,8 @@ main {
   margin: 0 auto;
   padding: 30px 24px;
   flex-direction: column;
+  background-color: #fff;
+  padding: 30px 150px;
 }
 
 .aboutContainer {

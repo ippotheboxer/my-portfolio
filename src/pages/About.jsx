@@ -2,7 +2,7 @@ export default function About() {
     return <main>
         <div className="container">
             <div className="aboutContainer">
-                <h2>Nice to meet you<br /> I'm Sophie</h2>
+                <h2>Nice to meet you<br /> I'm Sophie Sokol</h2>
             </div>
             <div className="aboutInfo">
                 <h2>About me</h2>

@@ -20,7 +20,7 @@ export default function Navbar() {
           }
           to="/work"
         >
-          {({ isActive }) => (isActive ? "🌸 Work" : "Work")}
+          {({ isActive }) => (isActive ? "🌸 Work" : "❀ Work")}
         </NavLink>
 
         <NavLink
@@ -29,7 +29,7 @@ export default function Navbar() {
           }
           to="/about"
         >
-          {({ isActive }) => (isActive ? "🌸 About" : "About")}
+          {({ isActive }) => (isActive ? "🌸 About" : "❀ About")}
         </NavLink>
 
         <NavLink
@@ -38,7 +38,7 @@ export default function Navbar() {
           }
           to="/projects"
         >
-          {({ isActive }) => (isActive ? "🌸 Projects" : "Projects")}
+          {({ isActive }) => (isActive ? "🌸 Projects" : "❀ Projects")}
         </NavLink>
     </div>
     </div> )

@@ -6,7 +6,7 @@ export default function ContactForm() {
       return <p>Thanks for contacting!</p>;
   }
   return (
-    <div className="contactContainer">
+    <div className="contactContainer generalContainer">
         <h2 className="homeTitle">Contact me</h2> 
       <form onSubmit={handleSubmit}>
         <label htmlFor="email">
